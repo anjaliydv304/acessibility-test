@@ -1,22 +1,66 @@
-<testsuites id="" name="" tests="5" failures="0" skipped="0" errors="0" time="31.619323000000005">
-<testsuite name="button.visual.spec.ts" timestamp="2025-08-16T14:05:38.467Z" hostname="chromium" tests="1" failures="0" skipped="0" time="4.697" errors="0">
-<testcase name="Button visual regression" classname="button.visual.spec.ts" time="4.697">
+<testsuites id="" name="" tests="5" failures="1" skipped="0" errors="0" time="17.739562999999997">
+<testsuite name="button.visual.spec.ts" timestamp="2025-08-16T14:15:51.743Z" hostname="chromium" tests="1" failures="0" skipped="0" time="2.289" errors="0">
+<testcase name="Button visual regression" classname="button.visual.spec.ts" time="2.289">
 </testcase>
 </testsuite>
-<testsuite name="button.visual.spec.ts" timestamp="2025-08-16T14:05:38.467Z" hostname="firefox" tests="1" failures="0" skipped="0" time="14.494" errors="0">
-<testcase name="Button visual regression" classname="button.visual.spec.ts" time="14.494">
+<testsuite name="button.visual.spec.ts" timestamp="2025-08-16T14:15:51.743Z" hostname="firefox" tests="1" failures="0" skipped="0" time="4.536" errors="0">
+<testcase name="Button visual regression" classname="button.visual.spec.ts" time="4.536">
 </testcase>
 </testsuite>
-<testsuite name="button.visual.spec.ts" timestamp="2025-08-16T14:05:38.467Z" hostname="webkit" tests="1" failures="0" skipped="0" time="6.011" errors="0">
-<testcase name="Button visual regression" classname="button.visual.spec.ts" time="6.011">
+<testsuite name="button.visual.spec.ts" timestamp="2025-08-16T14:15:51.743Z" hostname="webkit" tests="1" failures="1" skipped="0" time="5.362" errors="0">
+<testcase name="Button visual regression" classname="button.visual.spec.ts" time="5.362">
+<failure message="button.visual.spec.ts:3:1 Button visual regression" type="FAILURE">
+<![CDATA[  [webkit] › button.visual.spec.ts:3:1 › Button visual regression ──────────────────────────────────
+
+    Error: expect(Buffer).toMatchSnapshot(expected)
+
+      75328 pixels (ratio 0.03 of all image pixels) are different.
+
+      Snapshot: button-primary.png
+
+
+      3 | test('Button visual regression', async ({ page }) => {
+      4 |   await page.goto('/iframe.html?id=button--primary'); // Storybook story
+    > 5 |   expect(await page.screenshot()).toMatchSnapshot('button-primary.png');
+        |                                   ^
+      6 | });
+      7 |
+        at D:\webproject\accessibilty-test\tests\e2e\button.visual.spec.ts:5:35
+
+    attachment #1: button-primary (image/png) ──────────────────────────────────────────────────────
+    Expected: button.visual.spec.ts-snapshots\button-primary-webkit-win32.png
+    Received: ..\..\test-results\button.visual-Button-visual-regression-webkit\button-primary-actual.png
+    Diff:     ..\..\test-results\button.visual-Button-visual-regression-webkit\button-primary-diff.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ..\..\test-results\button.visual-Button-visual-regression-webkit\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\..\test-results\button.visual-Button-visual-regression-webkit\error-context.md
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\tests\e2e\button.visual.spec.ts-snapshots\button-primary-webkit-win32.png]]
+
+[[ATTACHMENT|..\test-results\button.visual-Button-visual-regression-webkit\button-primary-actual.png]]
+
+[[ATTACHMENT|..\test-results\button.visual-Button-visual-regression-webkit\button-primary-diff.png]]
+
+[[ATTACHMENT|..\test-results\button.visual-Button-visual-regression-webkit\test-failed-1.png]]
+
+[[ATTACHMENT|..\test-results\button.visual-Button-visual-regression-webkit\error-context.md]]
+]]>
+</system-out>
 </testcase>
 </testsuite>
-<testsuite name="button.visual.spec.ts" timestamp="2025-08-16T14:05:38.467Z" hostname="Mobile Chrome" tests="1" failures="0" skipped="0" time="5.156" errors="0">
-<testcase name="Button visual regression" classname="button.visual.spec.ts" time="5.156">
+<testsuite name="button.visual.spec.ts" timestamp="2025-08-16T14:15:51.743Z" hostname="Mobile Chrome" tests="1" failures="0" skipped="0" time="2.836" errors="0">
+<testcase name="Button visual regression" classname="button.visual.spec.ts" time="2.836">
 </testcase>
 </testsuite>
-<testsuite name="button.visual.spec.ts" timestamp="2025-08-16T14:05:38.467Z" hostname="Mobile Safari" tests="1" failures="0" skipped="0" time="2.283" errors="0">
-<testcase name="Button visual regression" classname="button.visual.spec.ts" time="2.283">
+<testsuite name="button.visual.spec.ts" timestamp="2025-08-16T14:15:51.743Z" hostname="Mobile Safari" tests="1" failures="0" skipped="0" time="2.053" errors="0">
+<testcase name="Button visual regression" classname="button.visual.spec.ts" time="2.053">
 </testcase>
 </testsuite>
 </testsuites>

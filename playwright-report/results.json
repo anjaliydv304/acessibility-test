@@ -125,7 +125,7 @@
       }
     ],
     "shard": null,
-    "updateSnapshots": "changed",
+    "updateSnapshots": "missing",
     "updateSourceMethod": "patch",
     "version": "1.54.2",
     "workers": 4,
@@ -158,12 +158,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 4697,
+                  "duration": 2289,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-08-16T14:05:39.955Z",
+                  "startTime": "2025-08-16T14:15:53.082Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -192,12 +192,12 @@
                   "workerIndex": 1,
                   "parallelIndex": 1,
                   "status": "passed",
-                  "duration": 14494,
+                  "duration": 4536,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-08-16T14:05:40.065Z",
+                  "startTime": "2025-08-16T14:15:53.082Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -212,7 +212,7 @@
         },
         {
           "title": "Button visual regression",
-          "ok": true,
+          "ok": false,
           "tags": [],
           "tests": [
             {
@@ -225,18 +225,68 @@
                 {
                   "workerIndex": 2,
                   "parallelIndex": 2,
-                  "status": "passed",
-                  "duration": 6011,
-                  "errors": [],
+                  "status": "failed",
+                  "duration": 5362,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mBuffer\u001b[39m\u001b[2m).\u001b[22mtoMatchSnapshot\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\n  75328 pixels (ratio 0.03 of all image pixels) are different.\n\n  Snapshot: button-primary.png\n",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mBuffer\u001b[39m\u001b[2m).\u001b[22mtoMatchSnapshot\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\n  75328 pixels (ratio 0.03 of all image pixels) are different.\n\n  Snapshot: button-primary.png\n\n    at D:\\webproject\\accessibilty-test\\tests\\e2e\\button.visual.spec.ts:5:35",
+                    "location": {
+                      "file": "D:\\webproject\\accessibilty-test\\tests\\e2e\\button.visual.spec.ts",
+                      "column": 35,
+                      "line": 5
+                    },
+                    "snippet": "\u001b[0m \u001b[90m 3 |\u001b[39m test(\u001b[32m'Button visual regression'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m ({ page }) \u001b[33m=>\u001b[39m {\n \u001b[90m 4 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(\u001b[32m'/iframe.html?id=button--primary'\u001b[39m)\u001b[33m;\u001b[39m \u001b[90m// Storybook story\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 5 |\u001b[39m   expect(\u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mscreenshot())\u001b[33m.\u001b[39mtoMatchSnapshot(\u001b[32m'button-primary.png'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m   |\u001b[39m                                   \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 6 |\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m 7 |\u001b[39m\u001b[0m"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "D:\\webproject\\accessibilty-test\\tests\\e2e\\button.visual.spec.ts",
+                        "column": 35,
+                        "line": 5
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mBuffer\u001b[39m\u001b[2m).\u001b[22mtoMatchSnapshot\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\n  75328 pixels (ratio 0.03 of all image pixels) are different.\n\n  Snapshot: button-primary.png\n\n\n\u001b[0m \u001b[90m 3 |\u001b[39m test(\u001b[32m'Button visual regression'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m ({ page }) \u001b[33m=>\u001b[39m {\n \u001b[90m 4 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(\u001b[32m'/iframe.html?id=button--primary'\u001b[39m)\u001b[33m;\u001b[39m \u001b[90m// Storybook story\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 5 |\u001b[39m   expect(\u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mscreenshot())\u001b[33m.\u001b[39mtoMatchSnapshot(\u001b[32m'button-primary.png'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m   |\u001b[39m                                   \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 6 |\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m 7 |\u001b[39m\u001b[0m\n\u001b[2m    at D:\\webproject\\accessibilty-test\\tests\\e2e\\button.visual.spec.ts:5:35\u001b[22m"
+                    }
+                  ],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-08-16T14:05:39.973Z",
+                  "startTime": "2025-08-16T14:15:53.051Z",
                   "annotations": [],
-                  "attachments": []
+                  "attachments": [
+                    {
+                      "name": "button-primary-expected.png",
+                      "contentType": "image/png",
+                      "path": "D:\\webproject\\accessibilty-test\\tests\\e2e\\button.visual.spec.ts-snapshots\\button-primary-webkit-win32.png"
+                    },
+                    {
+                      "name": "button-primary-actual.png",
+                      "contentType": "image/png",
+                      "path": "D:\\webproject\\accessibilty-test\\test-results\\button.visual-Button-visual-regression-webkit\\button-primary-actual.png"
+                    },
+                    {
+                      "name": "button-primary-diff.png",
+                      "contentType": "image/png",
+                      "path": "D:\\webproject\\accessibilty-test\\test-results\\button.visual-Button-visual-regression-webkit\\button-primary-diff.png"
+                    },
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "D:\\webproject\\accessibilty-test\\test-results\\button.visual-Button-visual-regression-webkit\\test-failed-1.png"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "D:\\webproject\\accessibilty-test\\test-results\\button.visual-Button-visual-regression-webkit\\error-context.md"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "D:\\webproject\\accessibilty-test\\tests\\e2e\\button.visual.spec.ts",
+                    "column": 35,
+                    "line": 5
+                  }
                 }
               ],
-              "status": "expected"
+              "status": "unexpected"
             }
           ],
           "id": "6444250814ee6be52f04-eb843aae438132ac4440",
@@ -260,12 +310,12 @@
                   "workerIndex": 3,
                   "parallelIndex": 3,
                   "status": "passed",
-                  "duration": 5156,
+                  "duration": 2836,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-08-16T14:05:39.957Z",
+                  "startTime": "2025-08-16T14:15:53.147Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -294,12 +344,12 @@
                   "workerIndex": 4,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 2283,
+                  "duration": 2053,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-08-16T14:05:46.920Z",
+                  "startTime": "2025-08-16T14:15:58.617Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -317,11 +367,11 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2025-08-16T14:05:29.440Z",
-    "duration": 31619.323000000004,
-    "expected": 5,
+    "startTime": "2025-08-16T14:15:43.432Z",
+    "duration": 17739.563,
+    "expected": 4,
     "skipped": 0,
-    "unexpected": 0,
+    "unexpected": 1,
     "flaky": 0
   }
 }
