@@ -16,6 +16,7 @@
     "test:e2e": "playwright test",
     "test:e2e:ui": "playwright test --ui",
     "test:e2e:headed": "playwright test --headed",
+    "test:performance": "echo 'No performance tests defined yet'",
     "test:visual": "playwright test --grep='visual|screenshot'",
     "test:visual:update": "playwright test --update-snapshots",
     "test:all": "npm run test:run && npm run test:e2e",
