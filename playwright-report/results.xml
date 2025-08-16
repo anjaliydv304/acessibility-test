@@ -1,52 +1,52 @@
-<testsuites id="" name="" tests="20" failures="0" skipped="0" errors="0" time="50.49894100000001">
-<testsuite name="Button.spec.ts" timestamp="2025-08-16T15:32:49.647Z" hostname="chromium" tests="4" failures="0" skipped="0" time="18.646" errors="0">
-<testcase name="Button Component - Visual and Accessibility Tests › should render and handle all core visual states correctly" classname="Button.spec.ts" time="5.898">
+<testsuites id="" name="" tests="20" failures="0" skipped="0" errors="0" time="44.369053">
+<testsuite name="Button.spec.ts" timestamp="2025-08-16T15:43:19.377Z" hostname="chromium" tests="4" failures="0" skipped="0" time="13.577" errors="0">
+<testcase name="Button Component - Visual and Accessibility Tests › should render and handle all core visual states correctly" classname="Button.spec.ts" time="4.299">
 </testcase>
-<testcase name="Button Component - Visual and Accessibility Tests › should be keyboard accessible" classname="Button.spec.ts" time="4.193">
+<testcase name="Button Component - Visual and Accessibility Tests › should be keyboard accessible" classname="Button.spec.ts" time="3.093">
 </testcase>
-<testcase name="Button Component - Functional and Performance Tests › should handle rapid interactions without failure" classname="Button.spec.ts" time="4.238">
+<testcase name="Button Component - Functional and Performance Tests › should handle rapid interactions without failure" classname="Button.spec.ts" time="3.134">
 </testcase>
-<testcase name="Button Component - Functional and Performance Tests › should render quickly" classname="Button.spec.ts" time="4.317">
-</testcase>
-</testsuite>
-<testsuite name="Button.spec.ts" timestamp="2025-08-16T15:32:49.647Z" hostname="firefox" tests="4" failures="0" skipped="0" time="58.833" errors="0">
-<testcase name="Button Component - Visual and Accessibility Tests › should render and handle all core visual states correctly" classname="Button.spec.ts" time="19.739">
-</testcase>
-<testcase name="Button Component - Visual and Accessibility Tests › should be keyboard accessible" classname="Button.spec.ts" time="10.909">
-</testcase>
-<testcase name="Button Component - Functional and Performance Tests › should handle rapid interactions without failure" classname="Button.spec.ts" time="14.126">
-</testcase>
-<testcase name="Button Component - Functional and Performance Tests › should render quickly" classname="Button.spec.ts" time="14.059">
+<testcase name="Button Component - Functional and Performance Tests › should render quickly" classname="Button.spec.ts" time="3.051">
 </testcase>
 </testsuite>
-<testsuite name="Button.spec.ts" timestamp="2025-08-16T15:32:49.647Z" hostname="webkit" tests="4" failures="0" skipped="0" time="10.995" errors="0">
-<testcase name="Button Component - Visual and Accessibility Tests › should render and handle all core visual states correctly" classname="Button.spec.ts" time="4.584">
+<testsuite name="Button.spec.ts" timestamp="2025-08-16T15:43:19.377Z" hostname="firefox" tests="4" failures="0" skipped="0" time="45.709" errors="0">
+<testcase name="Button Component - Visual and Accessibility Tests › should render and handle all core visual states correctly" classname="Button.spec.ts" time="18.617">
 </testcase>
-<testcase name="Button Component - Visual and Accessibility Tests › should be keyboard accessible" classname="Button.spec.ts" time="2.183">
+<testcase name="Button Component - Visual and Accessibility Tests › should be keyboard accessible" classname="Button.spec.ts" time="15.194">
 </testcase>
-<testcase name="Button Component - Functional and Performance Tests › should handle rapid interactions without failure" classname="Button.spec.ts" time="2.159">
+<testcase name="Button Component - Functional and Performance Tests › should handle rapid interactions without failure" classname="Button.spec.ts" time="3.024">
 </testcase>
-<testcase name="Button Component - Functional and Performance Tests › should render quickly" classname="Button.spec.ts" time="2.069">
-</testcase>
-</testsuite>
-<testsuite name="Button.spec.ts" timestamp="2025-08-16T15:32:49.647Z" hostname="Mobile Chrome" tests="4" failures="0" skipped="0" time="5.597" errors="0">
-<testcase name="Button Component - Visual and Accessibility Tests › should render and handle all core visual states correctly" classname="Button.spec.ts" time="2.424">
-</testcase>
-<testcase name="Button Component - Visual and Accessibility Tests › should be keyboard accessible" classname="Button.spec.ts" time="0.999">
-</testcase>
-<testcase name="Button Component - Functional and Performance Tests › should handle rapid interactions without failure" classname="Button.spec.ts" time="1.16">
-</testcase>
-<testcase name="Button Component - Functional and Performance Tests › should render quickly" classname="Button.spec.ts" time="1.014">
+<testcase name="Button Component - Functional and Performance Tests › should render quickly" classname="Button.spec.ts" time="8.874">
 </testcase>
 </testsuite>
-<testsuite name="Button.spec.ts" timestamp="2025-08-16T15:32:49.647Z" hostname="Mobile Safari" tests="4" failures="0" skipped="0" time="8.469" errors="0">
-<testcase name="Button Component - Visual and Accessibility Tests › should render and handle all core visual states correctly" classname="Button.spec.ts" time="3.299">
+<testsuite name="Button.spec.ts" timestamp="2025-08-16T15:43:19.377Z" hostname="webkit" tests="4" failures="0" skipped="0" time="10.224" errors="0">
+<testcase name="Button Component - Visual and Accessibility Tests › should render and handle all core visual states correctly" classname="Button.spec.ts" time="4.776">
 </testcase>
-<testcase name="Button Component - Visual and Accessibility Tests › should be keyboard accessible" classname="Button.spec.ts" time="1.729">
+<testcase name="Button Component - Visual and Accessibility Tests › should be keyboard accessible" classname="Button.spec.ts" time="2.154">
 </testcase>
-<testcase name="Button Component - Functional and Performance Tests › should handle rapid interactions without failure" classname="Button.spec.ts" time="2.039">
+<testcase name="Button Component - Functional and Performance Tests › should handle rapid interactions without failure" classname="Button.spec.ts" time="1.873">
 </testcase>
-<testcase name="Button Component - Functional and Performance Tests › should render quickly" classname="Button.spec.ts" time="1.402">
+<testcase name="Button Component - Functional and Performance Tests › should render quickly" classname="Button.spec.ts" time="1.421">
+</testcase>
+</testsuite>
+<testsuite name="Button.spec.ts" timestamp="2025-08-16T15:43:19.377Z" hostname="Mobile Chrome" tests="4" failures="0" skipped="0" time="5.609" errors="0">
+<testcase name="Button Component - Visual and Accessibility Tests › should render and handle all core visual states correctly" classname="Button.spec.ts" time="2.079">
+</testcase>
+<testcase name="Button Component - Visual and Accessibility Tests › should be keyboard accessible" classname="Button.spec.ts" time="1.266">
+</testcase>
+<testcase name="Button Component - Functional and Performance Tests › should handle rapid interactions without failure" classname="Button.spec.ts" time="1.384">
+</testcase>
+<testcase name="Button Component - Functional and Performance Tests › should render quickly" classname="Button.spec.ts" time="0.88">
+</testcase>
+</testsuite>
+<testsuite name="Button.spec.ts" timestamp="2025-08-16T15:43:19.377Z" hostname="Mobile Safari" tests="4" failures="0" skipped="0" time="7.385" errors="0">
+<testcase name="Button Component - Visual and Accessibility Tests › should render and handle all core visual states correctly" classname="Button.spec.ts" time="3">
+</testcase>
+<testcase name="Button Component - Visual and Accessibility Tests › should be keyboard accessible" classname="Button.spec.ts" time="1.522">
+</testcase>
+<testcase name="Button Component - Functional and Performance Tests › should handle rapid interactions without failure" classname="Button.spec.ts" time="1.709">
+</testcase>
+<testcase name="Button Component - Functional and Performance Tests › should render quickly" classname="Button.spec.ts" time="1.154">
 </testcase>
 </testsuite>
 </testsuites>
