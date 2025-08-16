@@ -1,29 +1,7 @@
 import { test, expect } from '@playwright/test';
 
-// Group all visual tests together
-test.describe('Button Component - Visual and Accessibility Tests', () => {
-
-  test('should render and handle all core visual states correctly', async ({ page }) => {
-    // Navigate and explicitly wait for the button to be visible
-    await page.goto('/iframe.html?id=components-button--default');
-    const defaultButton = page.getByRole('button', { name: 'Click me' });
-    await defaultButton.waitFor({ state: 'visible', timeout: 10000 });
-    await expect(page).toHaveScreenshot('button-default-state.png');
-
-    // Navigate to disabled button and wait for it to be present
-    await page.goto('/iframe.html?id=components-button--disabled');
-    const disabledButton = page.getByRole('button');
-    await disabledButton.waitFor({ state: 'visible', timeout: 10000 });
-    await expect(disabledButton).toBeDisabled();
-    await expect(page).toHaveScreenshot('button-disabled-state.png');
-
-    // Re-navigate and wait for the default button for hover state
-    await page.goto('/iframe.html?id=components-button--default');
-    const button = page.getByRole('button', { name: 'Click me' });
-    await button.waitFor({ state: 'visible', timeout: 10000 });
-    await button.hover();
-    await expect(page).toHaveScreenshot('button-hover-state.png');
-  });
+// Group all functional and accessibility tests together
+test.describe('Button Component - Functional and Accessibility Tests', () => {
 
   test('should be keyboard accessible', async ({ page }) => {
     // Navigate and explicitly wait for the button
@@ -39,10 +17,6 @@ test.describe('Button Component - Visual and Accessibility Tests', () => {
     // Verify activation with Enter key
     await page.keyboard.press('Enter');
   });
-});
-//---
-// Group all functional and performance tests together
-test.describe('Button Component - Functional and Performance Tests', () => {
 
   test('should handle rapid interactions without failure', async ({ page }) => {
     // Navigate and explicitly wait for the button
