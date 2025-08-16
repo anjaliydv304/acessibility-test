@@ -42,6 +42,6 @@ export default defineConfig({
   webServer: {
     command: 'npm run build-storybook && npx serve storybook-static -l 6006',
     url: 'http://localhost:6006',
-    reuseExistingServer: !process.env.CI,
+    reuseExistingServer: true,
   },
 });
