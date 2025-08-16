@@ -139,13 +139,13 @@
       "specs": [],
       "suites": [
         {
-          "title": "Button Component E2E Tests",
+          "title": "Button Component - Visual and Accessibility Tests",
           "file": "Button.spec.ts",
-          "line": 3,
+          "line": 4,
           "column": 6,
           "specs": [
             {
-              "title": "should render normal button variant correctly",
+              "title": "should render and handle all core visual states correctly",
               "ok": true,
               "tags": [],
               "tests": [
@@ -160,12 +160,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 4319,
+                      "duration": 3325,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-08-16T14:26:33.690Z",
+                      "startTime": "2025-08-16T14:58:08.938Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -173,13 +173,13 @@
                   "status": "expected"
                 }
               ],
-              "id": "4efc1c0523a2b8654c6f-0e9c189363b43a2b0aca",
+              "id": "4efc1c0523a2b8654c6f-07e8e9106a7e6cd55569",
               "file": "Button.spec.ts",
-              "line": 10,
+              "line": 6,
               "column": 3
             },
             {
-              "title": "should render glowing button variant correctly",
+              "title": "should be keyboard accessible",
               "ok": true,
               "tags": [],
               "tests": [
@@ -194,12 +194,12 @@
                       "workerIndex": 1,
                       "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 4621,
+                      "duration": 3253,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-08-16T14:26:33.702Z",
+                      "startTime": "2025-08-16T14:58:08.925Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -207,217 +207,13 @@
                   "status": "expected"
                 }
               ],
-              "id": "4efc1c0523a2b8654c6f-ba8fe482c4acec67bea0",
+              "id": "4efc1c0523a2b8654c6f-f9ff6f8a5f6646c2d6a0",
               "file": "Button.spec.ts",
-              "line": 19,
+              "line": 24,
               "column": 3
             },
             {
-              "title": "should handle click interactions",
-              "ok": true,
-              "tags": [],
-              "tests": [
-                {
-                  "timeout": 30000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "chromium",
-                  "projectName": "chromium",
-                  "results": [
-                    {
-                      "workerIndex": 2,
-                      "parallelIndex": 2,
-                      "status": "passed",
-                      "duration": 4503,
-                      "errors": [],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2025-08-16T14:26:33.746Z",
-                      "annotations": [],
-                      "attachments": []
-                    }
-                  ],
-                  "status": "expected"
-                }
-              ],
-              "id": "4efc1c0523a2b8654c6f-3ffcb7f50339a2e84d89",
-              "file": "Button.spec.ts",
-              "line": 28,
-              "column": 3
-            },
-            {
-              "title": "should handle disabled state correctly",
-              "ok": true,
-              "tags": [],
-              "tests": [
-                {
-                  "timeout": 30000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "chromium",
-                  "projectName": "chromium",
-                  "results": [
-                    {
-                      "workerIndex": 3,
-                      "parallelIndex": 3,
-                      "status": "passed",
-                      "duration": 4649,
-                      "errors": [],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2025-08-16T14:26:33.719Z",
-                      "annotations": [],
-                      "attachments": []
-                    }
-                  ],
-                  "status": "expected"
-                }
-              ],
-              "id": "4efc1c0523a2b8654c6f-fca9a925c0cb3ac3c9a5",
-              "file": "Button.spec.ts",
-              "line": 43,
-              "column": 3
-            },
-            {
-              "title": "should be keyboard accessible",
-              "ok": true,
-              "tags": [],
-              "tests": [
-                {
-                  "timeout": 30000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "chromium",
-                  "projectName": "chromium",
-                  "results": [
-                    {
-                      "workerIndex": 0,
-                      "parallelIndex": 0,
-                      "status": "passed",
-                      "duration": 1195,
-                      "errors": [],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2025-08-16T14:26:38.243Z",
-                      "annotations": [],
-                      "attachments": []
-                    }
-                  ],
-                  "status": "expected"
-                }
-              ],
-              "id": "4efc1c0523a2b8654c6f-74084fd1aa78f91ed0b8",
-              "file": "Button.spec.ts",
-              "line": 55,
-              "column": 3
-            },
-            {
-              "title": "should work across different viewports",
-              "ok": true,
-              "tags": [],
-              "tests": [
-                {
-                  "timeout": 30000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "chromium",
-                  "projectName": "chromium",
-                  "results": [
-                    {
-                      "workerIndex": 2,
-                      "parallelIndex": 2,
-                      "status": "passed",
-                      "duration": 1874,
-                      "errors": [],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2025-08-16T14:26:38.551Z",
-                      "annotations": [],
-                      "attachments": []
-                    }
-                  ],
-                  "status": "expected"
-                }
-              ],
-              "id": "4efc1c0523a2b8654c6f-99b9e44fb2c6ace258e4",
-              "file": "Button.spec.ts",
-              "line": 72,
-              "column": 3
-            },
-            {
-              "title": "should handle animations correctly",
-              "ok": true,
-              "tags": [],
-              "tests": [
-                {
-                  "timeout": 30000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "chromium",
-                  "projectName": "chromium",
-                  "results": [
-                    {
-                      "workerIndex": 1,
-                      "parallelIndex": 1,
-                      "status": "passed",
-                      "duration": 3224,
-                      "errors": [],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2025-08-16T14:26:38.628Z",
-                      "annotations": [],
-                      "attachments": []
-                    }
-                  ],
-                  "status": "expected"
-                }
-              ],
-              "id": "4efc1c0523a2b8654c6f-d75397e1406193af55ad",
-              "file": "Button.spec.ts",
-              "line": 86,
-              "column": 3
-            },
-            {
-              "title": "should maintain consistent styling across browsers",
-              "ok": true,
-              "tags": [],
-              "tests": [
-                {
-                  "timeout": 30000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "chromium",
-                  "projectName": "chromium",
-                  "results": [
-                    {
-                      "workerIndex": 3,
-                      "parallelIndex": 3,
-                      "status": "passed",
-                      "duration": 1373,
-                      "errors": [],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2025-08-16T14:26:38.702Z",
-                      "annotations": [],
-                      "attachments": []
-                    }
-                  ],
-                  "status": "expected"
-                }
-              ],
-              "id": "4efc1c0523a2b8654c6f-f76f7bf10329bb4e3d69",
-              "file": "Button.spec.ts",
-              "line": 105,
-              "column": 3
-            },
-            {
-              "title": "should render normal button variant correctly",
+              "title": "should render and handle all core visual states correctly",
               "ok": true,
               "tags": [],
               "tests": [
@@ -432,12 +228,12 @@
                       "workerIndex": 4,
                       "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 12870,
+                      "duration": 9835,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-08-16T14:26:41.558Z",
+                      "startTime": "2025-08-16T14:58:14.145Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -445,111 +241,9 @@
                   "status": "expected"
                 }
               ],
-              "id": "4efc1c0523a2b8654c6f-80561d8a0dfc6e1db716",
+              "id": "4efc1c0523a2b8654c6f-1b7fd8753f848adb3523",
               "file": "Button.spec.ts",
-              "line": 10,
-              "column": 3
-            },
-            {
-              "title": "should render glowing button variant correctly",
-              "ok": true,
-              "tags": [],
-              "tests": [
-                {
-                  "timeout": 30000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "firefox",
-                  "projectName": "firefox",
-                  "results": [
-                    {
-                      "workerIndex": 5,
-                      "parallelIndex": 0,
-                      "status": "passed",
-                      "duration": 9424,
-                      "errors": [],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2025-08-16T14:26:41.558Z",
-                      "annotations": [],
-                      "attachments": []
-                    }
-                  ],
-                  "status": "expected"
-                }
-              ],
-              "id": "4efc1c0523a2b8654c6f-9d79a27af8c1c620ddaa",
-              "file": "Button.spec.ts",
-              "line": 19,
-              "column": 3
-            },
-            {
-              "title": "should handle click interactions",
-              "ok": true,
-              "tags": [],
-              "tests": [
-                {
-                  "timeout": 30000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "firefox",
-                  "projectName": "firefox",
-                  "results": [
-                    {
-                      "workerIndex": 6,
-                      "parallelIndex": 3,
-                      "status": "passed",
-                      "duration": 14568,
-                      "errors": [],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2025-08-16T14:26:42.135Z",
-                      "annotations": [],
-                      "attachments": []
-                    }
-                  ],
-                  "status": "expected"
-                }
-              ],
-              "id": "4efc1c0523a2b8654c6f-821b5213631192ad9aa3",
-              "file": "Button.spec.ts",
-              "line": 28,
-              "column": 3
-            },
-            {
-              "title": "should handle disabled state correctly",
-              "ok": true,
-              "tags": [],
-              "tests": [
-                {
-                  "timeout": 30000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "firefox",
-                  "projectName": "firefox",
-                  "results": [
-                    {
-                      "workerIndex": 7,
-                      "parallelIndex": 1,
-                      "status": "passed",
-                      "duration": 11380,
-                      "errors": [],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2025-08-16T14:26:42.992Z",
-                      "annotations": [],
-                      "attachments": []
-                    }
-                  ],
-                  "status": "expected"
-                }
-              ],
-              "id": "4efc1c0523a2b8654c6f-b0c9a54a7395331f910a",
-              "file": "Button.spec.ts",
-              "line": 43,
+              "line": 6,
               "column": 3
             },
             {
@@ -566,14 +260,14 @@
                   "results": [
                     {
                       "workerIndex": 5,
-                      "parallelIndex": 0,
+                      "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 6013,
+                      "duration": 10159,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-08-16T14:26:52.016Z",
+                      "startTime": "2025-08-16T14:58:14.145Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -581,115 +275,13 @@
                   "status": "expected"
                 }
               ],
-              "id": "4efc1c0523a2b8654c6f-1aff3b14e6d4e597afc8",
+              "id": "4efc1c0523a2b8654c6f-ddbaf15a1b33843b5570",
               "file": "Button.spec.ts",
-              "line": 55,
+              "line": 24,
               "column": 3
             },
             {
-              "title": "should work across different viewports",
-              "ok": true,
-              "tags": [],
-              "tests": [
-                {
-                  "timeout": 30000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "firefox",
-                  "projectName": "firefox",
-                  "results": [
-                    {
-                      "workerIndex": 4,
-                      "parallelIndex": 2,
-                      "status": "passed",
-                      "duration": 4578,
-                      "errors": [],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2025-08-16T14:26:56.181Z",
-                      "annotations": [],
-                      "attachments": []
-                    }
-                  ],
-                  "status": "expected"
-                }
-              ],
-              "id": "4efc1c0523a2b8654c6f-0c75b255f946182e0fa0",
-              "file": "Button.spec.ts",
-              "line": 72,
-              "column": 3
-            },
-            {
-              "title": "should handle animations correctly",
-              "ok": true,
-              "tags": [],
-              "tests": [
-                {
-                  "timeout": 30000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "firefox",
-                  "projectName": "firefox",
-                  "results": [
-                    {
-                      "workerIndex": 5,
-                      "parallelIndex": 0,
-                      "status": "passed",
-                      "duration": 7738,
-                      "errors": [],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2025-08-16T14:26:58.039Z",
-                      "annotations": [],
-                      "attachments": []
-                    }
-                  ],
-                  "status": "expected"
-                }
-              ],
-              "id": "4efc1c0523a2b8654c6f-3797adab3a07d5a33eb0",
-              "file": "Button.spec.ts",
-              "line": 86,
-              "column": 3
-            },
-            {
-              "title": "should maintain consistent styling across browsers",
-              "ok": true,
-              "tags": [],
-              "tests": [
-                {
-                  "timeout": 30000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "firefox",
-                  "projectName": "firefox",
-                  "results": [
-                    {
-                      "workerIndex": 6,
-                      "parallelIndex": 3,
-                      "status": "passed",
-                      "duration": 3371,
-                      "errors": [],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2025-08-16T14:26:59.178Z",
-                      "annotations": [],
-                      "attachments": []
-                    }
-                  ],
-                  "status": "expected"
-                }
-              ],
-              "id": "4efc1c0523a2b8654c6f-3dc95782f0f8ac77ff2b",
-              "file": "Button.spec.ts",
-              "line": 105,
-              "column": 3
-            },
-            {
-              "title": "should render normal button variant correctly",
+              "title": "should render and handle all core visual states correctly",
               "ok": true,
               "tags": [],
               "tests": [
@@ -704,12 +296,12 @@
                       "workerIndex": 8,
                       "parallelIndex": 3,
                       "status": "passed",
-                      "duration": 2162,
+                      "duration": 5323,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-08-16T14:27:06.170Z",
+                      "startTime": "2025-08-16T14:58:31.427Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -717,13 +309,13 @@
                   "status": "expected"
                 }
               ],
-              "id": "4efc1c0523a2b8654c6f-de3cf33953fd979ff06c",
+              "id": "4efc1c0523a2b8654c6f-a63600a234c968eff15b",
               "file": "Button.spec.ts",
-              "line": 10,
+              "line": 6,
               "column": 3
             },
             {
-              "title": "should render glowing button variant correctly",
+              "title": "should be keyboard accessible",
               "ok": true,
               "tags": [],
               "tests": [
@@ -738,12 +330,12 @@
                       "workerIndex": 9,
                       "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 3433,
+                      "duration": 2782,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-08-16T14:27:06.690Z",
+                      "startTime": "2025-08-16T14:58:31.444Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -751,217 +343,13 @@
                   "status": "expected"
                 }
               ],
-              "id": "4efc1c0523a2b8654c6f-f73f6bce238e554314c0",
+              "id": "4efc1c0523a2b8654c6f-40c558b28749cb89f659",
               "file": "Button.spec.ts",
-              "line": 19,
+              "line": 24,
               "column": 3
             },
             {
-              "title": "should handle click interactions",
-              "ok": true,
-              "tags": [],
-              "tests": [
-                {
-                  "timeout": 30000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "webkit",
-                  "projectName": "webkit",
-                  "results": [
-                    {
-                      "workerIndex": 10,
-                      "parallelIndex": 1,
-                      "status": "passed",
-                      "duration": 3183,
-                      "errors": [],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2025-08-16T14:27:07.892Z",
-                      "annotations": [],
-                      "attachments": []
-                    }
-                  ],
-                  "status": "expected"
-                }
-              ],
-              "id": "4efc1c0523a2b8654c6f-bb6d20d933272bf67dad",
-              "file": "Button.spec.ts",
-              "line": 28,
-              "column": 3
-            },
-            {
-              "title": "should handle disabled state correctly",
-              "ok": true,
-              "tags": [],
-              "tests": [
-                {
-                  "timeout": 30000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "webkit",
-                  "projectName": "webkit",
-                  "results": [
-                    {
-                      "workerIndex": 11,
-                      "parallelIndex": 0,
-                      "status": "passed",
-                      "duration": 3107,
-                      "errors": [],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2025-08-16T14:27:09.319Z",
-                      "annotations": [],
-                      "attachments": []
-                    }
-                  ],
-                  "status": "expected"
-                }
-              ],
-              "id": "4efc1c0523a2b8654c6f-291e8bd0ffcf1c770c1f",
-              "file": "Button.spec.ts",
-              "line": 43,
-              "column": 3
-            },
-            {
-              "title": "should be keyboard accessible",
-              "ok": true,
-              "tags": [],
-              "tests": [
-                {
-                  "timeout": 30000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "webkit",
-                  "projectName": "webkit",
-                  "results": [
-                    {
-                      "workerIndex": 8,
-                      "parallelIndex": 3,
-                      "status": "passed",
-                      "duration": 2015,
-                      "errors": [],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2025-08-16T14:27:08.509Z",
-                      "annotations": [],
-                      "attachments": []
-                    }
-                  ],
-                  "status": "expected"
-                }
-              ],
-              "id": "4efc1c0523a2b8654c6f-bced0df973099a229387",
-              "file": "Button.spec.ts",
-              "line": 55,
-              "column": 3
-            },
-            {
-              "title": "should work across different viewports",
-              "ok": true,
-              "tags": [],
-              "tests": [
-                {
-                  "timeout": 30000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "webkit",
-                  "projectName": "webkit",
-                  "results": [
-                    {
-                      "workerIndex": 9,
-                      "parallelIndex": 2,
-                      "status": "passed",
-                      "duration": 2299,
-                      "errors": [],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2025-08-16T14:27:10.263Z",
-                      "annotations": [],
-                      "attachments": []
-                    }
-                  ],
-                  "status": "expected"
-                }
-              ],
-              "id": "4efc1c0523a2b8654c6f-067041ca4ca30b92c5c1",
-              "file": "Button.spec.ts",
-              "line": 72,
-              "column": 3
-            },
-            {
-              "title": "should handle animations correctly",
-              "ok": true,
-              "tags": [],
-              "tests": [
-                {
-                  "timeout": 30000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "webkit",
-                  "projectName": "webkit",
-                  "results": [
-                    {
-                      "workerIndex": 8,
-                      "parallelIndex": 3,
-                      "status": "passed",
-                      "duration": 4919,
-                      "errors": [],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2025-08-16T14:27:10.535Z",
-                      "annotations": [],
-                      "attachments": []
-                    }
-                  ],
-                  "status": "expected"
-                }
-              ],
-              "id": "4efc1c0523a2b8654c6f-d0d80fb68ccb91ef05c0",
-              "file": "Button.spec.ts",
-              "line": 86,
-              "column": 3
-            },
-            {
-              "title": "should maintain consistent styling across browsers",
-              "ok": true,
-              "tags": [],
-              "tests": [
-                {
-                  "timeout": 30000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "webkit",
-                  "projectName": "webkit",
-                  "results": [
-                    {
-                      "workerIndex": 10,
-                      "parallelIndex": 1,
-                      "status": "passed",
-                      "duration": 2085,
-                      "errors": [],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2025-08-16T14:27:11.242Z",
-                      "annotations": [],
-                      "attachments": []
-                    }
-                  ],
-                  "status": "expected"
-                }
-              ],
-              "id": "4efc1c0523a2b8654c6f-11296dbe2a445510f70f",
-              "file": "Button.spec.ts",
-              "line": 105,
-              "column": 3
-            },
-            {
-              "title": "should render normal button variant correctly",
+              "title": "should render and handle all core visual states correctly",
               "ok": true,
               "tags": [],
               "tests": [
@@ -974,48 +362,14 @@
                   "results": [
                     {
                       "workerIndex": 12,
-                      "parallelIndex": 1,
-                      "status": "passed",
-                      "duration": 1280,
-                      "errors": [],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2025-08-16T14:27:15.107Z",
-                      "annotations": [],
-                      "attachments": []
-                    }
-                  ],
-                  "status": "expected"
-                }
-              ],
-              "id": "4efc1c0523a2b8654c6f-44374810b276c422598e",
-              "file": "Button.spec.ts",
-              "line": 10,
-              "column": 3
-            },
-            {
-              "title": "should render glowing button variant correctly",
-              "ok": true,
-              "tags": [],
-              "tests": [
-                {
-                  "timeout": 30000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "Mobile Chrome",
-                  "projectName": "Mobile Chrome",
-                  "results": [
-                    {
-                      "workerIndex": 13,
                       "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 1371,
+                      "duration": 2975,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-08-16T14:27:16.026Z",
+                      "startTime": "2025-08-16T14:58:36.182Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1023,77 +377,9 @@
                   "status": "expected"
                 }
               ],
-              "id": "4efc1c0523a2b8654c6f-f4fb41f3ba5479a3f651",
+              "id": "4efc1c0523a2b8654c6f-ae467353a76f0b0798cc",
               "file": "Button.spec.ts",
-              "line": 19,
-              "column": 3
-            },
-            {
-              "title": "should handle click interactions",
-              "ok": true,
-              "tags": [],
-              "tests": [
-                {
-                  "timeout": 30000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "Mobile Chrome",
-                  "projectName": "Mobile Chrome",
-                  "results": [
-                    {
-                      "workerIndex": 14,
-                      "parallelIndex": 0,
-                      "status": "passed",
-                      "duration": 1683,
-                      "errors": [],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2025-08-16T14:27:16.975Z",
-                      "annotations": [],
-                      "attachments": []
-                    }
-                  ],
-                  "status": "expected"
-                }
-              ],
-              "id": "4efc1c0523a2b8654c6f-2cc456438c2103300278",
-              "file": "Button.spec.ts",
-              "line": 28,
-              "column": 3
-            },
-            {
-              "title": "should handle disabled state correctly",
-              "ok": true,
-              "tags": [],
-              "tests": [
-                {
-                  "timeout": 30000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "Mobile Chrome",
-                  "projectName": "Mobile Chrome",
-                  "results": [
-                    {
-                      "workerIndex": 15,
-                      "parallelIndex": 3,
-                      "status": "passed",
-                      "duration": 2111,
-                      "errors": [],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2025-08-16T14:27:17.009Z",
-                      "annotations": [],
-                      "attachments": []
-                    }
-                  ],
-                  "status": "expected"
-                }
-              ],
-              "id": "4efc1c0523a2b8654c6f-94ab18eb0541b521507a",
-              "file": "Button.spec.ts",
-              "line": 43,
+              "line": 6,
               "column": 3
             },
             {
@@ -1109,83 +395,15 @@
                   "projectName": "Mobile Chrome",
                   "results": [
                     {
-                      "workerIndex": 12,
-                      "parallelIndex": 1,
-                      "status": "passed",
-                      "duration": 1013,
-                      "errors": [],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2025-08-16T14:27:16.630Z",
-                      "annotations": [],
-                      "attachments": []
-                    }
-                  ],
-                  "status": "expected"
-                }
-              ],
-              "id": "4efc1c0523a2b8654c6f-bb482423b757e2a62ccf",
-              "file": "Button.spec.ts",
-              "line": 55,
-              "column": 3
-            },
-            {
-              "title": "should work across different viewports",
-              "ok": true,
-              "tags": [],
-              "tests": [
-                {
-                  "timeout": 30000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "Mobile Chrome",
-                  "projectName": "Mobile Chrome",
-                  "results": [
-                    {
                       "workerIndex": 13,
-                      "parallelIndex": 2,
-                      "status": "passed",
-                      "duration": 2084,
-                      "errors": [],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2025-08-16T14:27:17.577Z",
-                      "annotations": [],
-                      "attachments": []
-                    }
-                  ],
-                  "status": "expected"
-                }
-              ],
-              "id": "4efc1c0523a2b8654c6f-1bd19815a0198b466f63",
-              "file": "Button.spec.ts",
-              "line": 72,
-              "column": 3
-            },
-            {
-              "title": "should handle animations correctly",
-              "ok": true,
-              "tags": [],
-              "tests": [
-                {
-                  "timeout": 30000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "Mobile Chrome",
-                  "projectName": "Mobile Chrome",
-                  "results": [
-                    {
-                      "workerIndex": 12,
                       "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 3050,
+                      "duration": 1507,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-08-16T14:27:17.654Z",
+                      "startTime": "2025-08-16T14:58:37.494Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1193,81 +411,13 @@
                   "status": "expected"
                 }
               ],
-              "id": "4efc1c0523a2b8654c6f-9f6e233f1240ff27e206",
+              "id": "4efc1c0523a2b8654c6f-e9d7ff00bf13bf865fb3",
               "file": "Button.spec.ts",
-              "line": 86,
+              "line": 24,
               "column": 3
             },
             {
-              "title": "should maintain consistent styling across browsers",
-              "ok": true,
-              "tags": [],
-              "tests": [
-                {
-                  "timeout": 30000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "Mobile Chrome",
-                  "projectName": "Mobile Chrome",
-                  "results": [
-                    {
-                      "workerIndex": 14,
-                      "parallelIndex": 0,
-                      "status": "passed",
-                      "duration": 1786,
-                      "errors": [],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2025-08-16T14:27:18.831Z",
-                      "annotations": [],
-                      "attachments": []
-                    }
-                  ],
-                  "status": "expected"
-                }
-              ],
-              "id": "4efc1c0523a2b8654c6f-297682c2687152cf44c5",
-              "file": "Button.spec.ts",
-              "line": 105,
-              "column": 3
-            },
-            {
-              "title": "should render normal button variant correctly",
-              "ok": true,
-              "tags": [],
-              "tests": [
-                {
-                  "timeout": 30000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "Mobile Safari",
-                  "projectName": "Mobile Safari",
-                  "results": [
-                    {
-                      "workerIndex": 17,
-                      "parallelIndex": 0,
-                      "status": "passed",
-                      "duration": 2086,
-                      "errors": [],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2025-08-16T14:27:22.130Z",
-                      "annotations": [],
-                      "attachments": []
-                    }
-                  ],
-                  "status": "expected"
-                }
-              ],
-              "id": "4efc1c0523a2b8654c6f-e7bdc67e6cc8bb58e716",
-              "file": "Button.spec.ts",
-              "line": 10,
-              "column": 3
-            },
-            {
-              "title": "should render glowing button variant correctly",
+              "title": "should render and handle all core visual states correctly",
               "ok": true,
               "tags": [],
               "tests": [
@@ -1280,48 +430,14 @@
                   "results": [
                     {
                       "workerIndex": 16,
-                      "parallelIndex": 3,
-                      "status": "passed",
-                      "duration": 3107,
-                      "errors": [],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2025-08-16T14:27:22.130Z",
-                      "annotations": [],
-                      "attachments": []
-                    }
-                  ],
-                  "status": "expected"
-                }
-              ],
-              "id": "4efc1c0523a2b8654c6f-962f1b35751b5430c11b",
-              "file": "Button.spec.ts",
-              "line": 19,
-              "column": 3
-            },
-            {
-              "title": "should handle click interactions",
-              "ok": true,
-              "tags": [],
-              "tests": [
-                {
-                  "timeout": 30000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "Mobile Safari",
-                  "projectName": "Mobile Safari",
-                  "results": [
-                    {
-                      "workerIndex": 18,
                       "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 2985,
+                      "duration": 3645,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-08-16T14:27:22.131Z",
+                      "startTime": "2025-08-16T14:58:40.369Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1329,43 +445,9 @@
                   "status": "expected"
                 }
               ],
-              "id": "4efc1c0523a2b8654c6f-16c4f1cd86a0a2627523",
+              "id": "4efc1c0523a2b8654c6f-d7eff4a5699222ce8ddd",
               "file": "Button.spec.ts",
-              "line": 28,
-              "column": 3
-            },
-            {
-              "title": "should handle disabled state correctly",
-              "ok": true,
-              "tags": [],
-              "tests": [
-                {
-                  "timeout": 30000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "Mobile Safari",
-                  "projectName": "Mobile Safari",
-                  "results": [
-                    {
-                      "workerIndex": 19,
-                      "parallelIndex": 2,
-                      "status": "passed",
-                      "duration": 3154,
-                      "errors": [],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2025-08-16T14:27:22.539Z",
-                      "annotations": [],
-                      "attachments": []
-                    }
-                  ],
-                  "status": "expected"
-                }
-              ],
-              "id": "4efc1c0523a2b8654c6f-9ce02d7f8a7c3ef524ea",
-              "file": "Button.spec.ts",
-              "line": 43,
+              "line": 6,
               "column": 3
             },
             {
@@ -1384,12 +466,12 @@
                       "workerIndex": 17,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 2953,
+                      "duration": 2819,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-08-16T14:27:24.323Z",
+                      "startTime": "2025-08-16T14:58:40.611Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1397,123 +479,21 @@
                   "status": "expected"
                 }
               ],
-              "id": "4efc1c0523a2b8654c6f-35d2c5021f476643cb74",
+              "id": "4efc1c0523a2b8654c6f-7f8a23d0fc0e9325badd",
               "file": "Button.spec.ts",
-              "line": 55,
-              "column": 3
-            },
-            {
-              "title": "should work across different viewports",
-              "ok": true,
-              "tags": [],
-              "tests": [
-                {
-                  "timeout": 30000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "Mobile Safari",
-                  "projectName": "Mobile Safari",
-                  "results": [
-                    {
-                      "workerIndex": 18,
-                      "parallelIndex": 1,
-                      "status": "passed",
-                      "duration": 3519,
-                      "errors": [],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2025-08-16T14:27:25.236Z",
-                      "annotations": [],
-                      "attachments": []
-                    }
-                  ],
-                  "status": "expected"
-                }
-              ],
-              "id": "4efc1c0523a2b8654c6f-b17836c4df01f22b64ea",
-              "file": "Button.spec.ts",
-              "line": 72,
-              "column": 3
-            },
-            {
-              "title": "should handle animations correctly",
-              "ok": true,
-              "tags": [],
-              "tests": [
-                {
-                  "timeout": 30000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "Mobile Safari",
-                  "projectName": "Mobile Safari",
-                  "results": [
-                    {
-                      "workerIndex": 16,
-                      "parallelIndex": 3,
-                      "status": "passed",
-                      "duration": 4499,
-                      "errors": [],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2025-08-16T14:27:25.363Z",
-                      "annotations": [],
-                      "attachments": []
-                    }
-                  ],
-                  "status": "expected"
-                }
-              ],
-              "id": "4efc1c0523a2b8654c6f-3a7161267e7d3bcd93b7",
-              "file": "Button.spec.ts",
-              "line": 86,
-              "column": 3
-            },
-            {
-              "title": "should maintain consistent styling across browsers",
-              "ok": true,
-              "tags": [],
-              "tests": [
-                {
-                  "timeout": 30000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "Mobile Safari",
-                  "projectName": "Mobile Safari",
-                  "results": [
-                    {
-                      "workerIndex": 19,
-                      "parallelIndex": 2,
-                      "status": "passed",
-                      "duration": 1978,
-                      "errors": [],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2025-08-16T14:27:25.839Z",
-                      "annotations": [],
-                      "attachments": []
-                    }
-                  ],
-                  "status": "expected"
-                }
-              ],
-              "id": "4efc1c0523a2b8654c6f-04e17e239ab203f9db71",
-              "file": "Button.spec.ts",
-              "line": 105,
+              "line": 24,
               "column": 3
             }
           ]
         },
         {
-          "title": "Button Performance Tests",
+          "title": "Button Component - Functional and Performance Tests",
           "file": "Button.spec.ts",
-          "line": 114,
+          "line": 43,
           "column": 6,
           "specs": [
             {
-              "title": "should render quickly",
+              "title": "should handle rapid interactions without failure",
               "ok": true,
               "tags": [],
               "tests": [
@@ -1525,15 +505,15 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 0,
-                      "parallelIndex": 0,
+                      "workerIndex": 2,
+                      "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 1040,
+                      "duration": 3209,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-08-16T14:26:39.447Z",
+                      "startTime": "2025-08-16T14:58:08.925Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1541,13 +521,13 @@
                   "status": "expected"
                 }
               ],
-              "id": "4efc1c0523a2b8654c6f-ce682c1da5581bf71f4c",
+              "id": "4efc1c0523a2b8654c6f-88e964fac371f181e949",
               "file": "Button.spec.ts",
-              "line": 115,
+              "line": 45,
               "column": 3
             },
             {
-              "title": "should handle multiple rapid clicks",
+              "title": "should render quickly",
               "ok": true,
               "tags": [],
               "tests": [
@@ -1562,12 +542,12 @@
                       "workerIndex": 3,
                       "parallelIndex": 3,
                       "status": "passed",
-                      "duration": 969,
+                      "duration": 3630,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-08-16T14:26:40.088Z",
+                      "startTime": "2025-08-16T14:58:08.924Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1575,13 +555,13 @@
                   "status": "expected"
                 }
               ],
-              "id": "4efc1c0523a2b8654c6f-79c4fabba95cc82dec71",
+              "id": "4efc1c0523a2b8654c6f-ea290dde7a7045f29d5c",
               "file": "Button.spec.ts",
-              "line": 125,
+              "line": 58,
               "column": 3
             },
             {
-              "title": "should render quickly",
+              "title": "should handle rapid interactions without failure",
               "ok": true,
               "tags": [],
               "tests": [
@@ -1593,15 +573,15 @@
                   "projectName": "firefox",
                   "results": [
                     {
-                      "workerIndex": 4,
-                      "parallelIndex": 2,
+                      "workerIndex": 6,
+                      "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 3434,
+                      "duration": 9957,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-08-16T14:27:00.784Z",
+                      "startTime": "2025-08-16T14:58:14.208Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1609,13 +589,13 @@
                   "status": "expected"
                 }
               ],
-              "id": "4efc1c0523a2b8654c6f-461df6d76272b265663e",
+              "id": "4efc1c0523a2b8654c6f-d43433fcaef7b38297fa",
               "file": "Button.spec.ts",
-              "line": 115,
+              "line": 45,
               "column": 3
             },
             {
-              "title": "should handle multiple rapid clicks",
+              "title": "should render quickly",
               "ok": true,
               "tags": [],
               "tests": [
@@ -1628,14 +608,14 @@
                   "results": [
                     {
                       "workerIndex": 7,
-                      "parallelIndex": 1,
+                      "parallelIndex": 3,
                       "status": "passed",
-                      "duration": 3009,
+                      "duration": 8253,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-08-16T14:27:01.858Z",
+                      "startTime": "2025-08-16T14:58:14.524Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1643,13 +623,13 @@
                   "status": "expected"
                 }
               ],
-              "id": "4efc1c0523a2b8654c6f-49f02838bcc381903cfc",
+              "id": "4efc1c0523a2b8654c6f-a25346502d20ede7cce8",
               "file": "Button.spec.ts",
-              "line": 125,
+              "line": 58,
               "column": 3
             },
             {
-              "title": "should render quickly",
+              "title": "should handle rapid interactions without failure",
               "ok": true,
               "tags": [],
               "tests": [
@@ -1661,15 +641,15 @@
                   "projectName": "webkit",
                   "results": [
                     {
-                      "workerIndex": 9,
-                      "parallelIndex": 2,
+                      "workerIndex": 10,
+                      "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 1970,
+                      "duration": 1929,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-08-16T14:27:12.574Z",
+                      "startTime": "2025-08-16T14:58:33.629Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1677,13 +657,13 @@
                   "status": "expected"
                 }
               ],
-              "id": "4efc1c0523a2b8654c6f-dfabb8ad50fa3760e097",
+              "id": "4efc1c0523a2b8654c6f-b3b662915f6a607efc8c",
               "file": "Button.spec.ts",
-              "line": 115,
+              "line": 45,
               "column": 3
             },
             {
-              "title": "should handle multiple rapid clicks",
+              "title": "should render quickly",
               "ok": true,
               "tags": [],
               "tests": [
@@ -1698,12 +678,12 @@
                       "workerIndex": 11,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 2773,
+                      "duration": 1638,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-08-16T14:27:12.605Z",
+                      "startTime": "2025-08-16T14:58:34.501Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1711,9 +691,43 @@
                   "status": "expected"
                 }
               ],
-              "id": "4efc1c0523a2b8654c6f-69c91ec0aea6023f2598",
+              "id": "4efc1c0523a2b8654c6f-b7f5a63349a629394caf",
               "file": "Button.spec.ts",
-              "line": 125,
+              "line": 58,
+              "column": 3
+            },
+            {
+              "title": "should handle rapid interactions without failure",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Chrome",
+                  "projectName": "Mobile Chrome",
+                  "results": [
+                    {
+                      "workerIndex": 14,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1027,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-08-16T14:58:38.314Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "4efc1c0523a2b8654c6f-9eeea5c56b362bdaeb85",
+              "file": "Button.spec.ts",
+              "line": 45,
               "column": 3
             },
             {
@@ -1732,12 +746,12 @@
                       "workerIndex": 15,
                       "parallelIndex": 3,
                       "status": "passed",
-                      "duration": 1390,
+                      "duration": 957,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-08-16T14:27:19.303Z",
+                      "startTime": "2025-08-16T14:58:38.733Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1745,13 +759,13 @@
                   "status": "expected"
                 }
               ],
-              "id": "4efc1c0523a2b8654c6f-32a7ec28b5b546d0d90e",
+              "id": "4efc1c0523a2b8654c6f-dda1be6629a1ae6b9f85",
               "file": "Button.spec.ts",
-              "line": 115,
+              "line": 58,
               "column": 3
             },
             {
-              "title": "should handle multiple rapid clicks",
+              "title": "should handle rapid interactions without failure",
               "ok": true,
               "tags": [],
               "tests": [
@@ -1759,19 +773,19 @@
                   "timeout": 30000,
                   "annotations": [],
                   "expectedStatus": "passed",
-                  "projectId": "Mobile Chrome",
-                  "projectName": "Mobile Chrome",
+                  "projectId": "Mobile Safari",
+                  "projectName": "Mobile Safari",
                   "results": [
                     {
-                      "workerIndex": 13,
+                      "workerIndex": 18,
                       "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 1484,
+                      "duration": 2700,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-08-16T14:27:19.672Z",
+                      "startTime": "2025-08-16T14:58:40.741Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1779,9 +793,9 @@
                   "status": "expected"
                 }
               ],
-              "id": "4efc1c0523a2b8654c6f-03399b44a9583653ba22",
+              "id": "4efc1c0523a2b8654c6f-7853685f17751ef29bbc",
               "file": "Button.spec.ts",
-              "line": 125,
+              "line": 45,
               "column": 3
             },
             {
@@ -1797,49 +811,15 @@
                   "projectName": "Mobile Safari",
                   "results": [
                     {
-                      "workerIndex": 17,
-                      "parallelIndex": 0,
-                      "status": "passed",
-                      "duration": 1639,
-                      "errors": [],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2025-08-16T14:27:27.288Z",
-                      "annotations": [],
-                      "attachments": []
-                    }
-                  ],
-                  "status": "expected"
-                }
-              ],
-              "id": "4efc1c0523a2b8654c6f-94975fc439528ea54fe8",
-              "file": "Button.spec.ts",
-              "line": 115,
-              "column": 3
-            },
-            {
-              "title": "should handle multiple rapid clicks",
-              "ok": true,
-              "tags": [],
-              "tests": [
-                {
-                  "timeout": 30000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "Mobile Safari",
-                  "projectName": "Mobile Safari",
-                  "results": [
-                    {
                       "workerIndex": 19,
-                      "parallelIndex": 2,
+                      "parallelIndex": 3,
                       "status": "passed",
-                      "duration": 1765,
+                      "duration": 2423,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-08-16T14:27:27.832Z",
+                      "startTime": "2025-08-16T14:58:41.170Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1847,9 +827,9 @@
                   "status": "expected"
                 }
               ],
-              "id": "4efc1c0523a2b8654c6f-112525279a87cccc24a9",
+              "id": "4efc1c0523a2b8654c6f-daa67e03519c90cca76d",
               "file": "Button.spec.ts",
-              "line": 125,
+              "line": 58,
               "column": 3
             }
           ]
@@ -1859,9 +839,9 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2025-08-16T14:26:26.773Z",
-    "duration": 63500.825,
-    "expected": 50,
+    "startTime": "2025-08-16T14:58:01.062Z",
+    "duration": 43342.08,
+    "expected": 20,
     "skipped": 0,
     "unexpected": 0,
     "flaky": 0

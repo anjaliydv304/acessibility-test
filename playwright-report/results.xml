@@ -1,112 +1,52 @@
-<testsuites id="" name="" tests="50" failures="0" skipped="0" errors="0" time="63.500825">
-<testsuite name="Button.spec.ts" timestamp="2025-08-16T14:26:32.649Z" hostname="chromium" tests="10" failures="0" skipped="0" time="27.767" errors="0">
-<testcase name="Button Component E2E Tests › should render normal button variant correctly" classname="Button.spec.ts" time="4.319">
+<testsuites id="" name="" tests="20" failures="0" skipped="0" errors="0" time="43.34208">
+<testsuite name="Button.spec.ts" timestamp="2025-08-16T14:58:07.416Z" hostname="chromium" tests="4" failures="0" skipped="0" time="13.417" errors="0">
+<testcase name="Button Component - Visual and Accessibility Tests › should render and handle all core visual states correctly" classname="Button.spec.ts" time="3.325">
 </testcase>
-<testcase name="Button Component E2E Tests › should render glowing button variant correctly" classname="Button.spec.ts" time="4.621">
+<testcase name="Button Component - Visual and Accessibility Tests › should be keyboard accessible" classname="Button.spec.ts" time="3.253">
 </testcase>
-<testcase name="Button Component E2E Tests › should handle click interactions" classname="Button.spec.ts" time="4.503">
+<testcase name="Button Component - Functional and Performance Tests › should handle rapid interactions without failure" classname="Button.spec.ts" time="3.209">
 </testcase>
-<testcase name="Button Component E2E Tests › should handle disabled state correctly" classname="Button.spec.ts" time="4.649">
-</testcase>
-<testcase name="Button Component E2E Tests › should be keyboard accessible" classname="Button.spec.ts" time="1.195">
-</testcase>
-<testcase name="Button Component E2E Tests › should work across different viewports" classname="Button.spec.ts" time="1.874">
-</testcase>
-<testcase name="Button Component E2E Tests › should handle animations correctly" classname="Button.spec.ts" time="3.224">
-</testcase>
-<testcase name="Button Component E2E Tests › should maintain consistent styling across browsers" classname="Button.spec.ts" time="1.373">
-</testcase>
-<testcase name="Button Performance Tests › should render quickly" classname="Button.spec.ts" time="1.04">
-</testcase>
-<testcase name="Button Performance Tests › should handle multiple rapid clicks" classname="Button.spec.ts" time="0.969">
+<testcase name="Button Component - Functional and Performance Tests › should render quickly" classname="Button.spec.ts" time="3.63">
 </testcase>
 </testsuite>
-<testsuite name="Button.spec.ts" timestamp="2025-08-16T14:26:32.649Z" hostname="firefox" tests="10" failures="0" skipped="0" time="76.385" errors="0">
-<testcase name="Button Component E2E Tests › should render normal button variant correctly" classname="Button.spec.ts" time="12.87">
+<testsuite name="Button.spec.ts" timestamp="2025-08-16T14:58:07.416Z" hostname="firefox" tests="4" failures="0" skipped="0" time="38.204" errors="0">
+<testcase name="Button Component - Visual and Accessibility Tests › should render and handle all core visual states correctly" classname="Button.spec.ts" time="9.835">
 </testcase>
-<testcase name="Button Component E2E Tests › should render glowing button variant correctly" classname="Button.spec.ts" time="9.424">
+<testcase name="Button Component - Visual and Accessibility Tests › should be keyboard accessible" classname="Button.spec.ts" time="10.159">
 </testcase>
-<testcase name="Button Component E2E Tests › should handle click interactions" classname="Button.spec.ts" time="14.568">
+<testcase name="Button Component - Functional and Performance Tests › should handle rapid interactions without failure" classname="Button.spec.ts" time="9.957">
 </testcase>
-<testcase name="Button Component E2E Tests › should handle disabled state correctly" classname="Button.spec.ts" time="11.38">
-</testcase>
-<testcase name="Button Component E2E Tests › should be keyboard accessible" classname="Button.spec.ts" time="6.013">
-</testcase>
-<testcase name="Button Component E2E Tests › should work across different viewports" classname="Button.spec.ts" time="4.578">
-</testcase>
-<testcase name="Button Component E2E Tests › should handle animations correctly" classname="Button.spec.ts" time="7.738">
-</testcase>
-<testcase name="Button Component E2E Tests › should maintain consistent styling across browsers" classname="Button.spec.ts" time="3.371">
-</testcase>
-<testcase name="Button Performance Tests › should render quickly" classname="Button.spec.ts" time="3.434">
-</testcase>
-<testcase name="Button Performance Tests › should handle multiple rapid clicks" classname="Button.spec.ts" time="3.009">
+<testcase name="Button Component - Functional and Performance Tests › should render quickly" classname="Button.spec.ts" time="8.253">
 </testcase>
 </testsuite>
-<testsuite name="Button.spec.ts" timestamp="2025-08-16T14:26:32.649Z" hostname="webkit" tests="10" failures="0" skipped="0" time="27.946" errors="0">
-<testcase name="Button Component E2E Tests › should render normal button variant correctly" classname="Button.spec.ts" time="2.162">
+<testsuite name="Button.spec.ts" timestamp="2025-08-16T14:58:07.416Z" hostname="webkit" tests="4" failures="0" skipped="0" time="11.672" errors="0">
+<testcase name="Button Component - Visual and Accessibility Tests › should render and handle all core visual states correctly" classname="Button.spec.ts" time="5.323">
 </testcase>
-<testcase name="Button Component E2E Tests › should render glowing button variant correctly" classname="Button.spec.ts" time="3.433">
+<testcase name="Button Component - Visual and Accessibility Tests › should be keyboard accessible" classname="Button.spec.ts" time="2.782">
 </testcase>
-<testcase name="Button Component E2E Tests › should handle click interactions" classname="Button.spec.ts" time="3.183">
+<testcase name="Button Component - Functional and Performance Tests › should handle rapid interactions without failure" classname="Button.spec.ts" time="1.929">
 </testcase>
-<testcase name="Button Component E2E Tests › should handle disabled state correctly" classname="Button.spec.ts" time="3.107">
-</testcase>
-<testcase name="Button Component E2E Tests › should be keyboard accessible" classname="Button.spec.ts" time="2.015">
-</testcase>
-<testcase name="Button Component E2E Tests › should work across different viewports" classname="Button.spec.ts" time="2.299">
-</testcase>
-<testcase name="Button Component E2E Tests › should handle animations correctly" classname="Button.spec.ts" time="4.919">
-</testcase>
-<testcase name="Button Component E2E Tests › should maintain consistent styling across browsers" classname="Button.spec.ts" time="2.085">
-</testcase>
-<testcase name="Button Performance Tests › should render quickly" classname="Button.spec.ts" time="1.97">
-</testcase>
-<testcase name="Button Performance Tests › should handle multiple rapid clicks" classname="Button.spec.ts" time="2.773">
+<testcase name="Button Component - Functional and Performance Tests › should render quickly" classname="Button.spec.ts" time="1.638">
 </testcase>
 </testsuite>
-<testsuite name="Button.spec.ts" timestamp="2025-08-16T14:26:32.649Z" hostname="Mobile Chrome" tests="10" failures="0" skipped="0" time="17.252" errors="0">
-<testcase name="Button Component E2E Tests › should render normal button variant correctly" classname="Button.spec.ts" time="1.28">
+<testsuite name="Button.spec.ts" timestamp="2025-08-16T14:58:07.416Z" hostname="Mobile Chrome" tests="4" failures="0" skipped="0" time="6.466" errors="0">
+<testcase name="Button Component - Visual and Accessibility Tests › should render and handle all core visual states correctly" classname="Button.spec.ts" time="2.975">
 </testcase>
-<testcase name="Button Component E2E Tests › should render glowing button variant correctly" classname="Button.spec.ts" time="1.371">
+<testcase name="Button Component - Visual and Accessibility Tests › should be keyboard accessible" classname="Button.spec.ts" time="1.507">
 </testcase>
-<testcase name="Button Component E2E Tests › should handle click interactions" classname="Button.spec.ts" time="1.683">
+<testcase name="Button Component - Functional and Performance Tests › should handle rapid interactions without failure" classname="Button.spec.ts" time="1.027">
 </testcase>
-<testcase name="Button Component E2E Tests › should handle disabled state correctly" classname="Button.spec.ts" time="2.111">
-</testcase>
-<testcase name="Button Component E2E Tests › should be keyboard accessible" classname="Button.spec.ts" time="1.013">
-</testcase>
-<testcase name="Button Component E2E Tests › should work across different viewports" classname="Button.spec.ts" time="2.084">
-</testcase>
-<testcase name="Button Component E2E Tests › should handle animations correctly" classname="Button.spec.ts" time="3.05">
-</testcase>
-<testcase name="Button Component E2E Tests › should maintain consistent styling across browsers" classname="Button.spec.ts" time="1.786">
-</testcase>
-<testcase name="Button Performance Tests › should render quickly" classname="Button.spec.ts" time="1.39">
-</testcase>
-<testcase name="Button Performance Tests › should handle multiple rapid clicks" classname="Button.spec.ts" time="1.484">
+<testcase name="Button Component - Functional and Performance Tests › should render quickly" classname="Button.spec.ts" time="0.957">
 </testcase>
 </testsuite>
-<testsuite name="Button.spec.ts" timestamp="2025-08-16T14:26:32.649Z" hostname="Mobile Safari" tests="10" failures="0" skipped="0" time="27.685" errors="0">
-<testcase name="Button Component E2E Tests › should render normal button variant correctly" classname="Button.spec.ts" time="2.086">
+<testsuite name="Button.spec.ts" timestamp="2025-08-16T14:58:07.416Z" hostname="Mobile Safari" tests="4" failures="0" skipped="0" time="11.587" errors="0">
+<testcase name="Button Component - Visual and Accessibility Tests › should render and handle all core visual states correctly" classname="Button.spec.ts" time="3.645">
 </testcase>
-<testcase name="Button Component E2E Tests › should render glowing button variant correctly" classname="Button.spec.ts" time="3.107">
+<testcase name="Button Component - Visual and Accessibility Tests › should be keyboard accessible" classname="Button.spec.ts" time="2.819">
 </testcase>
-<testcase name="Button Component E2E Tests › should handle click interactions" classname="Button.spec.ts" time="2.985">
+<testcase name="Button Component - Functional and Performance Tests › should handle rapid interactions without failure" classname="Button.spec.ts" time="2.7">
 </testcase>
-<testcase name="Button Component E2E Tests › should handle disabled state correctly" classname="Button.spec.ts" time="3.154">
-</testcase>
-<testcase name="Button Component E2E Tests › should be keyboard accessible" classname="Button.spec.ts" time="2.953">
-</testcase>
-<testcase name="Button Component E2E Tests › should work across different viewports" classname="Button.spec.ts" time="3.519">
-</testcase>
-<testcase name="Button Component E2E Tests › should handle animations correctly" classname="Button.spec.ts" time="4.499">
-</testcase>
-<testcase name="Button Component E2E Tests › should maintain consistent styling across browsers" classname="Button.spec.ts" time="1.978">
-</testcase>
-<testcase name="Button Performance Tests › should render quickly" classname="Button.spec.ts" time="1.639">
-</testcase>
-<testcase name="Button Performance Tests › should handle multiple rapid clicks" classname="Button.spec.ts" time="1.765">
+<testcase name="Button Component - Functional and Performance Tests › should render quickly" classname="Button.spec.ts" time="2.423">
 </testcase>
 </testsuite>
 </testsuites>
