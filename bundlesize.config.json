@@ -1,0 +1,14 @@
+{
+  "files": [
+    {
+      "path": "./dist/index.js",
+      "maxSize": "50kb",
+      "compression": "gzip"
+    },
+    {
+      "path": "./dist/components/Button/index.js", 
+      "maxSize": "5kb",
+      "compression": "gzip"
+    }
+  ]
+}
