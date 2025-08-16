@@ -73,32 +73,45 @@ jobs:
           path: playwright-report/
           retention-days: 30
 
-  visual-regression:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-      
-      - uses: actions/setup-node@v4
-        with:
-          node-version: '20'
-          cache: 'npm'
-      
-      - name: Install dependencies
-        run: npm ci
-      
-      - name: Install Playwright Browsers
-        run: npx playwright install --with-deps
-      
-      - name: Run visual tests
-        run: npm run test:visual
-      
-      - uses: actions/upload-artifact@v4
-        if: failure()
-        with:
-          name: visual-diff-report
-          path: test-results/
+visual-regression:
+  runs-on: ubuntu-latest
+  steps:
+    - uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+    
+    - uses: actions/setup-node@v4
+      with:
+        node-version: '20'
+        cache: 'npm'
+    
+    - name: Install dependencies
+      run: npm ci
+    
+    - name: Install Playwright Browsers
+      run: npx playwright install --with-deps
+    
+    - name: Build Storybook
+      run: npm run build-storybook
+    
+    - name: Serve Storybook
+      run: npx serve storybook-static -l 6006 &
+    
+    - name: Wait for Storybook
+      run: npx wait-on http://localhost:6006
+    
+    - name: Update visual snapshots (first run)
+      run: npm run test:visual:update || true
+    
+    - name: Run visual tests
+      run: npm run test:visual
+    
+    - uses: actions/upload-artifact@v4
+      if: failure()
+      with:
+        name: visual-diff-report
+        path: test-results/
+
 
   performance-tests:
     runs-on: ubuntu-latest
