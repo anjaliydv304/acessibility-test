@@ -1,13 +1,13 @@
 {
   "files": [
     {
-      "path": "./dist/index.js",
+      "path": "./dist/index.es.js",
       "maxSize": "50kb",
       "compression": "gzip"
     },
     {
-      "path": "./dist/components/Button/index.js", 
-      "maxSize": "5kb",
+      "path": "./dist/index.umd.js",
+      "maxSize": "50kb",
       "compression": "gzip"
     }
   ]
