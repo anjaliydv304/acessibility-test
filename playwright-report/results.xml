@@ -1,22 +1,22 @@
-<testsuites id="" name="" tests="5" failures="0" skipped="0" errors="0" time="18.090939000000002">
-<testsuite name="button.visual.spec.ts" timestamp="2025-08-16T14:02:13.781Z" hostname="chromium" tests="1" failures="0" skipped="0" time="3.058" errors="0">
-<testcase name="Button visual regression" classname="button.visual.spec.ts" time="3.058">
+<testsuites id="" name="" tests="5" failures="0" skipped="0" errors="0" time="31.619323000000005">
+<testsuite name="button.visual.spec.ts" timestamp="2025-08-16T14:05:38.467Z" hostname="chromium" tests="1" failures="0" skipped="0" time="4.697" errors="0">
+<testcase name="Button visual regression" classname="button.visual.spec.ts" time="4.697">
 </testcase>
 </testsuite>
-<testsuite name="button.visual.spec.ts" timestamp="2025-08-16T14:02:13.781Z" hostname="firefox" tests="1" failures="0" skipped="0" time="3.894" errors="0">
-<testcase name="Button visual regression" classname="button.visual.spec.ts" time="3.894">
+<testsuite name="button.visual.spec.ts" timestamp="2025-08-16T14:05:38.467Z" hostname="firefox" tests="1" failures="0" skipped="0" time="14.494" errors="0">
+<testcase name="Button visual regression" classname="button.visual.spec.ts" time="14.494">
 </testcase>
 </testsuite>
-<testsuite name="button.visual.spec.ts" timestamp="2025-08-16T14:02:13.781Z" hostname="webkit" tests="1" failures="0" skipped="0" time="4.608" errors="0">
-<testcase name="Button visual regression" classname="button.visual.spec.ts" time="4.608">
+<testsuite name="button.visual.spec.ts" timestamp="2025-08-16T14:05:38.467Z" hostname="webkit" tests="1" failures="0" skipped="0" time="6.011" errors="0">
+<testcase name="Button visual regression" classname="button.visual.spec.ts" time="6.011">
 </testcase>
 </testsuite>
-<testsuite name="button.visual.spec.ts" timestamp="2025-08-16T14:02:13.781Z" hostname="Mobile Chrome" tests="1" failures="0" skipped="0" time="3.389" errors="0">
-<testcase name="Button visual regression" classname="button.visual.spec.ts" time="3.389">
+<testsuite name="button.visual.spec.ts" timestamp="2025-08-16T14:05:38.467Z" hostname="Mobile Chrome" tests="1" failures="0" skipped="0" time="5.156" errors="0">
+<testcase name="Button visual regression" classname="button.visual.spec.ts" time="5.156">
 </testcase>
 </testsuite>
-<testsuite name="button.visual.spec.ts" timestamp="2025-08-16T14:02:13.781Z" hostname="Mobile Safari" tests="1" failures="0" skipped="0" time="2.311" errors="0">
-<testcase name="Button visual regression" classname="button.visual.spec.ts" time="2.311">
+<testsuite name="button.visual.spec.ts" timestamp="2025-08-16T14:05:38.467Z" hostname="Mobile Safari" tests="1" failures="0" skipped="0" time="2.283" errors="0">
+<testcase name="Button visual regression" classname="button.visual.spec.ts" time="2.283">
 </testcase>
 </testsuite>
 </testsuites>
