@@ -160,12 +160,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 3325,
+                      "duration": 5898,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-08-16T14:58:08.938Z",
+                      "startTime": "2025-08-16T15:32:50.892Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -194,12 +194,12 @@
                       "workerIndex": 1,
                       "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 3253,
+                      "duration": 4193,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-08-16T14:58:08.925Z",
+                      "startTime": "2025-08-16T15:32:50.892Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -209,7 +209,7 @@
               ],
               "id": "4efc1c0523a2b8654c6f-f9ff6f8a5f6646c2d6a0",
               "file": "Button.spec.ts",
-              "line": 24,
+              "line": 28,
               "column": 3
             },
             {
@@ -226,14 +226,14 @@
                   "results": [
                     {
                       "workerIndex": 4,
-                      "parallelIndex": 2,
+                      "parallelIndex": 3,
                       "status": "passed",
-                      "duration": 9835,
+                      "duration": 19739,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-08-16T14:58:14.145Z",
+                      "startTime": "2025-08-16T15:32:57.751Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -262,12 +262,12 @@
                       "workerIndex": 5,
                       "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 10159,
+                      "duration": 10909,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-08-16T14:58:14.145Z",
+                      "startTime": "2025-08-16T15:32:57.752Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -277,7 +277,7 @@
               ],
               "id": "4efc1c0523a2b8654c6f-ddbaf15a1b33843b5570",
               "file": "Button.spec.ts",
-              "line": 24,
+              "line": 28,
               "column": 3
             },
             {
@@ -294,14 +294,14 @@
                   "results": [
                     {
                       "workerIndex": 8,
-                      "parallelIndex": 3,
+                      "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 5323,
+                      "duration": 4584,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-08-16T14:58:31.427Z",
+                      "startTime": "2025-08-16T15:33:22.394Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -330,12 +330,12 @@
                       "workerIndex": 9,
                       "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 2782,
+                      "duration": 2183,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-08-16T14:58:31.444Z",
+                      "startTime": "2025-08-16T15:33:22.321Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -345,7 +345,7 @@
               ],
               "id": "4efc1c0523a2b8654c6f-40c558b28749cb89f659",
               "file": "Button.spec.ts",
-              "line": 24,
+              "line": 28,
               "column": 3
             },
             {
@@ -364,12 +364,12 @@
                       "workerIndex": 12,
                       "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 2975,
+                      "duration": 2424,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-08-16T14:58:36.182Z",
+                      "startTime": "2025-08-16T15:33:26.634Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -396,14 +396,14 @@
                   "results": [
                     {
                       "workerIndex": 13,
-                      "parallelIndex": 1,
+                      "parallelIndex": 3,
                       "status": "passed",
-                      "duration": 1507,
+                      "duration": 999,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-08-16T14:58:37.494Z",
+                      "startTime": "2025-08-16T15:33:28.681Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -413,7 +413,7 @@
               ],
               "id": "4efc1c0523a2b8654c6f-e9d7ff00bf13bf865fb3",
               "file": "Button.spec.ts",
-              "line": 24,
+              "line": 28,
               "column": 3
             },
             {
@@ -430,14 +430,14 @@
                   "results": [
                     {
                       "workerIndex": 16,
-                      "parallelIndex": 1,
+                      "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 3645,
+                      "duration": 3299,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-08-16T14:58:40.369Z",
+                      "startTime": "2025-08-16T15:33:31.026Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -464,14 +464,14 @@
                   "results": [
                     {
                       "workerIndex": 17,
-                      "parallelIndex": 0,
+                      "parallelIndex": 3,
                       "status": "passed",
-                      "duration": 2819,
+                      "duration": 1729,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-08-16T14:58:40.611Z",
+                      "startTime": "2025-08-16T15:33:31.534Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -481,7 +481,7 @@
               ],
               "id": "4efc1c0523a2b8654c6f-7f8a23d0fc0e9325badd",
               "file": "Button.spec.ts",
-              "line": 24,
+              "line": 28,
               "column": 3
             }
           ]
@@ -489,7 +489,7 @@
         {
           "title": "Button Component - Functional and Performance Tests",
           "file": "Button.spec.ts",
-          "line": 43,
+          "line": 45,
           "column": 6,
           "specs": [
             {
@@ -508,12 +508,12 @@
                       "workerIndex": 2,
                       "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 3209,
+                      "duration": 4238,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-08-16T14:58:08.925Z",
+                      "startTime": "2025-08-16T15:32:50.935Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -523,7 +523,7 @@
               ],
               "id": "4efc1c0523a2b8654c6f-88e964fac371f181e949",
               "file": "Button.spec.ts",
-              "line": 45,
+              "line": 47,
               "column": 3
             },
             {
@@ -542,12 +542,12 @@
                       "workerIndex": 3,
                       "parallelIndex": 3,
                       "status": "passed",
-                      "duration": 3630,
+                      "duration": 4317,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-08-16T14:58:08.924Z",
+                      "startTime": "2025-08-16T15:32:50.870Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -557,7 +557,7 @@
               ],
               "id": "4efc1c0523a2b8654c6f-ea290dde7a7045f29d5c",
               "file": "Button.spec.ts",
-              "line": 58,
+              "line": 62,
               "column": 3
             },
             {
@@ -574,14 +574,14 @@
                   "results": [
                     {
                       "workerIndex": 6,
-                      "parallelIndex": 0,
+                      "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 9957,
+                      "duration": 14126,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-08-16T14:58:14.208Z",
+                      "startTime": "2025-08-16T15:32:57.756Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -591,7 +591,7 @@
               ],
               "id": "4efc1c0523a2b8654c6f-d43433fcaef7b38297fa",
               "file": "Button.spec.ts",
-              "line": 45,
+              "line": 47,
               "column": 3
             },
             {
@@ -608,14 +608,14 @@
                   "results": [
                     {
                       "workerIndex": 7,
-                      "parallelIndex": 3,
+                      "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 8253,
+                      "duration": 14059,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-08-16T14:58:14.524Z",
+                      "startTime": "2025-08-16T15:32:58.463Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -625,7 +625,7 @@
               ],
               "id": "4efc1c0523a2b8654c6f-a25346502d20ede7cce8",
               "file": "Button.spec.ts",
-              "line": 58,
+              "line": 62,
               "column": 3
             },
             {
@@ -642,14 +642,14 @@
                   "results": [
                     {
                       "workerIndex": 10,
-                      "parallelIndex": 1,
+                      "parallelIndex": 3,
                       "status": "passed",
-                      "duration": 1929,
+                      "duration": 2159,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-08-16T14:58:33.629Z",
+                      "startTime": "2025-08-16T15:33:24.135Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -659,7 +659,7 @@
               ],
               "id": "4efc1c0523a2b8654c6f-b3b662915f6a607efc8c",
               "file": "Button.spec.ts",
-              "line": 45,
+              "line": 47,
               "column": 3
             },
             {
@@ -678,12 +678,12 @@
                       "workerIndex": 11,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 1638,
+                      "duration": 2069,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-08-16T14:58:34.501Z",
+                      "startTime": "2025-08-16T15:33:25.057Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -693,7 +693,7 @@
               ],
               "id": "4efc1c0523a2b8654c6f-b7f5a63349a629394caf",
               "file": "Button.spec.ts",
-              "line": 58,
+              "line": 62,
               "column": 3
             },
             {
@@ -710,14 +710,14 @@
                   "results": [
                     {
                       "workerIndex": 14,
-                      "parallelIndex": 0,
+                      "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 1027,
+                      "duration": 1160,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-08-16T14:58:38.314Z",
+                      "startTime": "2025-08-16T15:33:29.398Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -727,7 +727,7 @@
               ],
               "id": "4efc1c0523a2b8654c6f-9eeea5c56b362bdaeb85",
               "file": "Button.spec.ts",
-              "line": 45,
+              "line": 47,
               "column": 3
             },
             {
@@ -744,14 +744,14 @@
                   "results": [
                     {
                       "workerIndex": 15,
-                      "parallelIndex": 3,
+                      "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 957,
+                      "duration": 1014,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-08-16T14:58:38.733Z",
+                      "startTime": "2025-08-16T15:33:29.602Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -761,7 +761,7 @@
               ],
               "id": "4efc1c0523a2b8654c6f-dda1be6629a1ae6b9f85",
               "file": "Button.spec.ts",
-              "line": 58,
+              "line": 62,
               "column": 3
             },
             {
@@ -778,14 +778,14 @@
                   "results": [
                     {
                       "workerIndex": 18,
-                      "parallelIndex": 2,
+                      "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 2700,
+                      "duration": 2039,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-08-16T14:58:40.741Z",
+                      "startTime": "2025-08-16T15:33:32.240Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -795,7 +795,7 @@
               ],
               "id": "4efc1c0523a2b8654c6f-7853685f17751ef29bbc",
               "file": "Button.spec.ts",
-              "line": 45,
+              "line": 47,
               "column": 3
             },
             {
@@ -812,14 +812,14 @@
                   "results": [
                     {
                       "workerIndex": 19,
-                      "parallelIndex": 3,
+                      "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 2423,
+                      "duration": 1402,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-08-16T14:58:41.170Z",
+                      "startTime": "2025-08-16T15:33:32.479Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -829,7 +829,7 @@
               ],
               "id": "4efc1c0523a2b8654c6f-daa67e03519c90cca76d",
               "file": "Button.spec.ts",
-              "line": 58,
+              "line": 62,
               "column": 3
             }
           ]
@@ -839,8 +839,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2025-08-16T14:58:01.062Z",
-    "duration": 43342.08,
+    "startTime": "2025-08-16T15:32:44.135Z",
+    "duration": 50498.941000000006,
     "expected": 20,
     "skipped": 0,
     "unexpected": 0,

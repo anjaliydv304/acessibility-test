@@ -13,7 +13,6 @@ export default defineConfig({
   ],
   use: {
     baseURL: 'http://localhost:6006', // Storybook URL
-    
     trace: 'on-first-retry',
     screenshot: 'only-on-failure',
   },
@@ -40,8 +39,8 @@ export default defineConfig({
     },
   ],
   webServer: {
-    command: 'npm run build-storybook && npx serve storybook-static -l 6006',
+    command: 'npm run storybook',
     url: 'http://localhost:6006',
-    reuseExistingServer: true,
+    reuseExistingServer: !process.env.CI,
   },
 });
